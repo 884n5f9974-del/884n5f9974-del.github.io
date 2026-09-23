@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Codex VPS Backup</title>
+  <style>
+    body { font: 1rem/1.55 system-ui, sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem; color: #242424; }
+    a { color: #174da0; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p>Codex VPS Backup is a personal backup utility used by its owner.</p>
+  <h2>Google Drive access and use</h2>
+  <p>The utility requests the <code>drive.file</code> permission to create, list, read, and delete only Google Drive files that it creates. It uses this access to store encrypted restic backups, restore them when requested by the owner, and remove older backups according to the owner's retention settings.</p>
+  <h2>Data stored</h2>
+  <p>Backups can include the owner's Codex configuration, sessions, skills, credentials, and SSH files. Restic encrypts backup contents before uploading them to Google Drive. The encryption password is kept separately from the Google Drive backup. Google OAuth credentials are stored on the owner's VPS and may also be included inside the encrypted backup.</p>
+  <h2>Sharing and retention</h2>
+  <p>The utility does not sell data, use it for advertising, or share it with other users. Google Drive stores the encrypted backup files in the owner's account. The owner controls backup retention and can delete the backups and revoke the utility's access in Google Account settings.</p>
+  <h2>This website</h2>
+  <p>These informational pages have no sign-in form, tracking, or analytics. For questions, contact the developer using the support email shown on the Google OAuth consent screen.</p>
+  <p><a href="index.html">Home</a></p>
+</body>
+</html>
